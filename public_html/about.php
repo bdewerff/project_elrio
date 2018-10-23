@@ -9,41 +9,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/yeti/bootstrap.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			    <a class="navbar-brand" href="#">About</a>
-			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"                                  aria-expanded="false" aria-label="Toggle navigation">
-			        <span class="navbar-toggler-icon"></span>
-			    </button>
 
-			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<?php include 'navigation.php'; ?>
 
-			        <ul class="navbar-nav mr-auto">
-			            <li class="nav-item active">
-			                <a class="nav-link" href="index.html">Home Page<span class="sr-only">(current)</span></a>
-			            </li>
-
-			            <li class="nav-item">
-			                <a class="nav-link" href="about.html">About Us</a>
-			            </li>
-			            
-			        <li class="nav-item dropdown">
-			           
-			            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			                Menu
-			            </a>
-
-			            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			            <a class="dropdown-item" href="breakfast.html">Breakfast</a>
-			                <a class="dropdown-item" href="dinner.html">Dinner</a>
-			                <div class="dropdown-divider"></div>
-			            <a class="dropdown-item" href="drinks.html">Drinks</a>
-			            <a class="dropdown-item" href="dessert.html">Dessert</a>
-			            </div>
-			        </li>
-			    </ul>
-
-			    </div>
-			</nav>
 			<br />
 <div class="container">
 <h2>
@@ -80,9 +48,8 @@
 </div>
 </div>
 
-<footer>
-&copy; 2018 Copyright &centerdot; El Rio Restaurant &centerdot; 012 Center Street, Indianola, Iowa, 50125 &centerdot; 012-345-6789
-</footer>
+<?php include 'footer.php'; ?>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
 crossorigin="anonymous"></script>
