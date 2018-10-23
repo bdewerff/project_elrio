@@ -18,7 +18,7 @@
 <h1>El Rio - A Mexican Restaurant</h1>
 <p>World Famous Homemade Margaritas</p>
 <h2> <img src="img/el_rio.png" alt="River" /></h2>
-<a href="order.html" class="btn btn-primary"  role="button">Order Here</a>
+<a href="order.php" class="btn btn-primary"  role="button">Order Here</a>
 </div>
 <p>No one does Margaritas like El Rio does Margaritas&excl;</p>
 <p>Test Change 2</p>
