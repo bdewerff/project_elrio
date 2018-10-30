@@ -70,7 +70,6 @@ Comes with a side of rice and beans.</p>
 <p class="font-italic"><b>Quesadilla</b>&colon; &dollar;3.99 Add chicken for &dollar;0.99 extra</p><p> Half a regular quesadilla. Your choice of corn or flour tortilla filled with
 shredded cheese and then fried. Comes with a side of rice and beans. </p>
 
-<<<<<<< HEAD
 <span class="d-block p-2 bg-dark text-white">
     <h2 class="text-center">Not feeling Mexican Food?</h2>
 </span>
@@ -83,13 +82,13 @@ shredded cheese and then fried. Comes with a side of rice and beans. </p>
 <span class="d-block p-2 bg-dark text-white">
     <h2 class="text-center">Sides and Extras</h2>
 </span>
-=======
+
 <h2>Not feeling Mexican Food?</h2>
 <p><b>Cheeseburger</b>&colon; &dollar;9.99</p><p> 1/4 lbs burger stacked with lettuce, cheese, and tomato. Comes with a side of French fries.</p>
 <p> <img src="img/cheesehamburger.png" alt="Cheeseburger"/></p>
 <p><b>Chicken Strips</b>&colon; &dollar;8.99</p><p> 3 breaded chicken strips deep fried. Comes with a side of French fries.</p>
 <p> <img src="img/chicken.png" alt="chicken fingers"/></p>
->>>>>>> cf9711902fa8decdbfcf256ca107056680d227b1
+
 
 <p>Rice and Beans &dollar;2.99</p>
 <p>Rice &dollar;.75</p>
@@ -99,9 +98,9 @@ shredded cheese and then fried. Comes with a side of rice and beans. </p>
 <div class="alert alert-warning">
   <strong></strong><a href="#" class="alert-link">Back to Top</a>.
 </div>
-<footer>
-&copy; 2018 Copyright &centerdot; El Rio Restaurant
-</footer>
+
+<?php include 'footer.php'; ?>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
 crossorigin="anonymous"></script>
